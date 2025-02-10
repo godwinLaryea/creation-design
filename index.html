@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>Account Creation</title>
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header section with time, wifi signal and battery -->
+    <header>
+      <!-- Time -->
+      <div class="header-wrapper">
+        <div class="time">
+          9:41
+        </div>
+        <!-- Notch -->
+        <div class="notch">
+          
+        </div>
+        <!-- Signals -->
+        <div class="signal-wrapper">
+          <div class="cellular-signal">
+            <img src="./Images/signal.svg" alt="cellular-signal">
+          </div>
+          <div class="wifi">
+            <img src="./Images/wifi.svg" alt="wifi-signal">
+          </div>
+          <div class="battery">
+            <img src="./Images/battery.svg" alt="battery-signal">
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <body>
+      <main>
+        <!-- Login section -->
+        <section class="login-section">
+          <div class="login-heading">
+            <p>Create an account with Secure Link</p>
+          </div>
+
+          <div class="login-wrapper">
+            <div class="login">
+              Got an account? Then login here
+            </div><span class="forward-arrow">
+              <img src="./Images/forward.svg" class="fwd-arrow" alt="forward-arrow">
+            </span>
+            <div>
+              <button class="login-btn">Login</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Login Forms -->
+        <form action="#" method="post">
+          <div>
+            <label for="email">EMAIL ADDRESS</label>
+            <input type="email" name="email" id="email" placeholder="johndoe@outlook.com" required>
+          </div>
+
+          <div>
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" placeholder="enter your password" required>
+          </div>
+        </form>
+
+        <!-- Password requirements -->
+        <div class="pass-req">
+          <div>
+            8 characters
+            <span class="check"><img src="./Images/check.svg" alt="check"></span>
+          </div>
+          <div>
+            1 symbol
+            <span class="check"><img src="./Images/check.svg" alt="check"></span>
+          </div>
+          <div>
+            1 uppercase
+            <span class="check"><img src="./Images/check.svg" alt="check"></span>
+          </div>
+        </div>
+
+        <!-- Create My account Button -->
+        <button>
+          Create My account
+          <span>
+            <img src="./Images/forward.svg" alt="">
+          </span>
+        </button>
+
+
+      </main>
+
+    </body>
+  </div>
+
+</body>
+
+</html>
