@@ -16,7 +16,7 @@ body {
 
 .container {
   background-color: #ffff;
-  max-width: 480px;
+  max-width: 400px;
   width: 100%;
   min-height: 100vh;
   border-radius: 2.5rem;
@@ -24,10 +24,10 @@ body {
 }
 
 .header-wrapper {
-  margin: 1rem 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 0.5rem 1rem 1rem;
 }
 
 .time {
@@ -47,18 +47,18 @@ body {
   display: flex;
   gap: 0.5rem;
   align-items: center;
-  margin-right: -1.5rem;
+  margin-right: -1rem;
 }
 
 .login-heading {
-  max-width: 380px;
+  max-width: 280px;
   width: 100%;
   margin: 1rem;
 }
 
 .login-heading>p {
   font-family: "Golos text", serif;
-  font-size: 1.63rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -75,12 +75,12 @@ body {
 .fwd-arrow {
   display: inline-block;
   padding-top: 5px;
-  margin-left: -3.5rem;
+  margin-left: -1.5rem;
   opacity: 0.5;
 }
 
 .login-btn {
-  border: 1px solid rgba(211, 211, 211, 0.418);
+  border: 1px solid rgba(211, 211, 211, 0.267);
   border-radius: 24px;
   padding: 0.75rem 1.2rem;
   background-color: rgba(211, 211, 211, 0.170);
@@ -90,7 +90,7 @@ body {
 }
 
 form{
-  max-width: 434px;
+  max-width: 334px;
   width: 100%;
 }
 
@@ -118,7 +118,7 @@ input::placeholder{
 }
 
 .pass-req{
-  max-width: 434px;
+  max-width: 334px;
   display: flex;
   justify-content: center;
   gap: 0.9rem;
@@ -130,16 +130,20 @@ input::placeholder{
 .pass-info{
   border: 1px solid rgba(100, 209, 138, 0.075);
   border-radius: 4rem;
-  padding: 0.3rem 0.8rem 0.5rem 0.5rem;
+  padding: 0.2rem 0.1rem 0.4rem 0.4rem;
   color: #64d18af8;
   background-color: rgba(100, 209, 138, 0.11);
+  font-size: 0.8rem;
+  width: 100%;
 }
 
 .pass-info-up{
   border: 1px solid rgba(211, 211, 211, 0.144);
   border-radius: 4rem;
-  padding: 0.3rem 0.8rem 0.5rem 0.5rem;
+  padding: 0.2rem 0.1rem 0.4rem 0.4rem;
   background-color: rgba(211, 211, 211, 0.144);
+  font-size: 0.8rem;
+  width: 100%;
 
 }
 
@@ -149,7 +153,7 @@ input::placeholder{
 }
 
 .create-btn{
-  max-width: 434px;
+  max-width: 350px;
   margin: 1rem;
   width: 100%;
   padding: 1rem 4rem;
